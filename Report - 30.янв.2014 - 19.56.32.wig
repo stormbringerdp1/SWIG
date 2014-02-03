@@ -1,6 +1,0 @@
-WIGTS Report Ver. 1.0
-
-Right Engine                                                    |   Left Engine                                                     |   Right Sensor                                                |   Left Sensor                                                 |   Right ServoMotor                                            |   Left ServoMotor                                          
-T(sec)  Rotation Speed (RPM)    T(sec)  Power Consumption (W)   |   T(sec)  Rotation Speed (RPM)    T(sec)  Power Consumption (W)   |   T(sec)  Voltage (V)         T(sec)  Power Consumption (W)   |   T(sec)  Voltage (V)         T(sec)  Power Consumption (W)   |   T(sec)  Angle (°)           T(sec)  Power Consumption (W)   |   T(sec)  Angle (°)           T(sec)  Power Consumption (W)
-        0.50 -- 99.50                   0.50 -- 99.50           |           0.50 -- 99.50                   0.50 -- 99.50           |           20.00 -- 80.00              0.50 -- 99.50           |           0.50 -- 99.50               0.50 -- 99.50           |           0.50 -- 99.50               0.50 -- 99.50           |           0.50 -- 99.50               0.50 -- 99.50        
-1.456   0.12513                 3.461   56.35853                |   5.467   19.33042                7.469   80.87405                |   9.474   58.50093            
