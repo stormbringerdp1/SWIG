@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Ekranoplan.png</file>
+        <file>Engine.png</file>
+    </qresource>
+</RCC>

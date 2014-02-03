@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>3dsMax_Ekranoplan.obj</file>
+    </qresource>
+</RCC>

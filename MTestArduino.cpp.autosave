@@ -1,0 +1,19 @@
+#include "MTestArduino.h"
+
+#include <QThread>
+
+//  #include <QApplication>
+
+MTestArduino::MTestArduino(QObject *parent) :
+    QObject(parent)
+{
+}
+
+void MTestArduino::SlotStartTest(int iParam, float param)
+{
+//  wait(5000);
+//  thread()->wait(5000);
+  QThread::sleep(1); //unsigned long secs) [static]
+  emit SignalResultTest(10.0);
+//  moveToThread(QApplication::instance()->thread());
+}

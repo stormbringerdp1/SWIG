@@ -1,0 +1,20 @@
+#ifndef MTHREADTEST_H
+#define MTHREADTEST_H
+
+#include <QObject>
+//#include <QThread>
+
+class MThreadTest : public QObject
+{
+    Q_OBJECT
+public:
+    explicit MThreadTest(QObject *parent = 0);
+
+signals:
+  void SignalResultTest(qreal result);
+
+public slots:
+  void SlotStartTest(int iParam, qreal param);
+};
+
+#endif // MTHREADTEST_H
